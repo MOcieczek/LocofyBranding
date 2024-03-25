@@ -1,0 +1,32 @@
+.leading-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label1 {
+  position: relative;
+  letter-spacing: -0.05px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.label,
+.sizesmall-typeoutlined-sta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+}
+.sizesmall-typeoutlined-sta {
+  border-radius: var(--br-9xs);
+  background-color: var(--white);
+  border: 1px solid var(--gray-400);
+  padding: var(--padding-5xs);
+  text-align: left;
+  font-size: var(--title-small-size);
+  color: var(--text-text-primary);
+  font-family: var(--text-sm-lineheight-5-font-semibold);
+}

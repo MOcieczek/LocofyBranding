@@ -1,0 +1,79 @@
+.image-icon7,
+.src7 {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.image-icon7 {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.src7 {
+  display: none;
+}
+.alt7,
+.image7,
+.src7 {
+  position: absolute;
+}
+.alt7 {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.image7 {
+  top: calc(50% - 20px);
+  left: 40px;
+  width: 39px;
+  height: 39px;
+  overflow: hidden;
+}
+.top2 {
+  width: 1280px;
+  position: relative;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  height: 50px;
+  text-align: right;
+  font-size: var(--font-size-12xs);
+  font-family: var(--text-sm-lineheight-5-font-semibold);
+}
+.placeholder2 {
+  align-self: stretch;
+  position: relative;
+}
+.input1,
+.start {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input1 {
+  border-radius: var(--br-9xs);
+  height: 32px;
+  justify-content: center;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.start {
+  width: 100%;
+  position: relative;
+  height: 832px;
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 350px;
+  text-align: left;
+  font-size: var(--text-sm-lineheight-5-font-semibold-size);
+  color: var(--gray-4001);
+  font-family: var(--text-sm-lineheight-5-font-semibold);
+}

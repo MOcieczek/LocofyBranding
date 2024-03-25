@@ -1,0 +1,14 @@
+.sizemedium-number2,
+.tab-stack {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tab-stack {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.sizemedium-number2 {
+  border-bottom: 1px solid var(--gray-300);
+  flex-direction: column;
+}

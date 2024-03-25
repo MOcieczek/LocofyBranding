@@ -1,0 +1,66 @@
+.tab-label,
+.text {
+  position: relative;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.text {
+  letter-spacing: 0.15px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.min-width {
+  width: 8px;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.badge,
+.label2 {
+  flex-direction: row;
+  align-items: center;
+}
+.badge {
+  border-radius: var(--br-5xs);
+  background-color: var(--text-text-primary);
+  height: 16px;
+  display: none;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--label-size);
+  color: var(--white);
+}
+.label2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.selection-indicator {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--text-text-primary);
+  height: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.selectedtrue-sizemedium-st {
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--text-sm-lineheight-5-font-semibold-size);
+  color: var(--text-text-primary);
+  font-family: var(--text-sm-lineheight-5-font-semibold);
+}
