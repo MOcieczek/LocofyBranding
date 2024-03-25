@@ -14,7 +14,7 @@ const Brand = () => {
                   <div className="lorem-ipsum">Colour palette</div>
                 </div>
                 <div className="image">
-                  <img className="image-icon" alt="" src="/image@2x.png" />
+                  <img className="image-icon" alt="" src="/image1@2x.png" />
                   <div className="src">null</div>
                   <div className="alt">INSERT_ALT</div>
                 </div>
@@ -26,7 +26,7 @@ const Brand = () => {
                   <div className="lorem-ipsum">Colour palette</div>
                 </div>
                 <div className="image">
-                  <img className="image-icon" alt="" src="/image@2x.png" />
+                  <img className="image-icon" alt="" src="/image1@2x.png" />
                   <div className="src">null</div>
                   <div className="alt">INSERT_ALT</div>
                 </div>
@@ -40,7 +40,7 @@ const Brand = () => {
                   <div className="lorem-ipsum">Colour palette</div>
                 </div>
                 <div className="image">
-                  <img className="image-icon" alt="" src="/image@2x.png" />
+                  <img className="image-icon" alt="" src="/image1@2x.png" />
                   <div className="src">null</div>
                   <div className="alt">INSERT_ALT</div>
                 </div>
@@ -52,7 +52,7 @@ const Brand = () => {
                   <div className="lorem-ipsum">Colour palette</div>
                 </div>
                 <div className="image">
-                  <img className="image-icon" alt="" src="/image@2x.png" />
+                  <img className="image-icon" alt="" src="/image1@2x.png" />
                   <div className="src">null</div>
                   <div className="alt">INSERT_ALT</div>
                 </div>
