@@ -55,7 +55,7 @@ const SizesmallTypeoutlinedSta = memo(
           </div>
         </div>
         {trailingIcon && (
-          <img className="leading-icon" alt="" src={trailingIcon1} />
+          <img className="trailing-icon" alt="" src={trailingIcon1} />
         )}
       </div>
     );

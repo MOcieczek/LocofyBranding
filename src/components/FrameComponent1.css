@@ -1,0 +1,59 @@
+.lorem-ipsum1 {
+  position: relative;
+  line-height: 14px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 75px;
+}
+.image-icon5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.alt5,
+.src5 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.image5,
+.lorem-ipsum-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image5 {
+  align-self: stretch;
+  overflow: hidden;
+  position: relative;
+  gap: var(--gap-243xl);
+  text-align: right;
+  font-size: var(--font-size-12xs);
+}
+.lorem-ipsum-parent {
+  flex: 1;
+  gap: var(--gap-8xs);
+  min-width: 270px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-darkgray);
+  font-family: var(--component-text-sm);
+}
+@media screen and (max-width: 450px) {
+  .image5 {
+    gap: 131px 262px;
+  }
+}

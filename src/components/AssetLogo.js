@@ -39,7 +39,7 @@ const AssetLogo = memo(
       <div className="assetlogo" style={assetLogoStyle}>
         <div className="assetlogo-inner">
           <img
-            className="frame-child"
+            className="frame-item"
             alt=""
             src={rectangle9}
             style={rectangleIcon1Style}

@@ -41,7 +41,7 @@ const Input = memo(
     }, [depth8Frame0BackgroundColor, depth8Frame0Height, depth8Frame0Flex]);
 
     return (
-      <div className="input" style={inputStyle}>
+      <div className="input1" style={inputStyle}>
         <div className="depth-6-frame-0" style={depth6Frame0Style}>
           {showDepth7Frame0 && (
             <div className="depth-7-frame-0" style={depth7Frame0Style}>
@@ -49,7 +49,7 @@ const Input = memo(
             </div>
           )}
           <div className="depth-8-frame-0" style={depth8Frame0Style}>
-            <div className="depth-6-frame-0">
+            <div className="depth-9-frame-0">
               <div className="depth-10-frame-0">
                 <div className="type">Type</div>
               </div>

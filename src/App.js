@@ -5,9 +5,9 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import Start from "./pages/Start";
 import Brand from "./pages/Brand";
 import Visuals from "./pages/Visuals";
-import Start from "./pages/Start";
 
 function App() {
   const action = useNavigationType();
@@ -29,11 +29,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/visuals":
+      case "/brand":
         title = "";
         metaDescription = "";
         break;
-      case "/start":
+      case "/visuals":
         title = "";
         metaDescription = "";
         break;
@@ -55,9 +55,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Brand />} />
+      <Route path="/" element={<Start />} />
+      <Route path="/brand" element={<Brand />} />
       <Route path="/visuals" element={<Visuals />} />
-      <Route path="/start" element={<Start />} />
     </Routes>
   );
 }

@@ -51,7 +51,7 @@
   height: 36px;
   flex-direction: column;
   text-align: left;
-  font-size: var(--text-sm-lineheight-5-font-semibold-size);
+  font-size: var(--component-text-sm-size);
   color: var(--gray-600);
-  font-family: var(--text-sm-lineheight-5-font-semibold);
+  font-family: var(--component-text-sm);
 }
